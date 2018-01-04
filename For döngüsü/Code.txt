@@ -1,0 +1,37 @@
+import UIKit
+
+// For Döngüsü
+
+// For Döngüsünün Array ile kullanýmý
+
+var sehirler = ["Ankara","Eskþehir","Ýstanbul","Ýzmir","Bursa"]
+
+//for sehir in sehirler{
+
+//
+
+//    print(sehir)
+
+//}
+
+// For döngüsünðn Stringler için kullanýmý
+
+// Swift 4 ile geldi Swift 2 de vardý 3 de kaldýrýlmýþtý
+
+var str = "Merhaba Dünya"
+
+//for s in str{
+
+//    print(s)
+
+//}
+
+//For döngüsünün Dictionary için kullanýmý
+
+var arabalar = ["Bmw":"0", "Mercedes":"1", "Ford":"2"]
+
+for (key,value) in arabalar{
+
+    print("\(key) : \(value)")
+
+}
